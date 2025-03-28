@@ -6,6 +6,9 @@
 # Config file
 config.json
 
+# Users file
+users.json
+
 # User-specific files
 *.rsuser
 *.suo
