@@ -1,4 +1,4 @@
-#findRandomPeople
+# findRandomPeople
 <div style="display: flex; align-items: center;">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Avenger2256/findRandomPeople?style=flat-square">
 <img alt="GitHub License" src="https://img.shields.io/github/license/Avenger2256/findRandomPeople?style=flat-square">
