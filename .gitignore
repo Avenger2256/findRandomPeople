@@ -9,6 +9,9 @@ config.json
 # Users file
 users.json
 
+# test file
+test.py
+
 # User-specific files
 *.rsuser
 *.suo
