@@ -1,4 +1,4 @@
-<h1 align="center">findRandomPeople</h1>>
+<h1 align="center">findRandomPeople</h1>
 <div display="flex" align="center">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Avenger2256/findRandomPeople?style=for-the-badge">
 <img alt="GitHub License" src="https://img.shields.io/github/license/Avenger2256/findRandomPeople?style=for-the-badge">
