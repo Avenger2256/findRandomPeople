@@ -12,6 +12,9 @@ users.json
 # test file
 test.py
 
+# logs folder
+logs/
+
 # User-specific files
 *.rsuser
 *.suo

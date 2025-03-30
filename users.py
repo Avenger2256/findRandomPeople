@@ -1,3 +1,4 @@
+import random
 from config import *
 from random import choice
 from loguru import logger
@@ -6,9 +7,9 @@ logger.add('logs/log_{time:DD.MM.YYYY}.log', retention='7 days')
 
 def findRandom(userId: str):
     data = load()
-    randomId = choice(data)
+    randomId = choice(list(data.keys()))
     data = data[randomId]
-    if data['ban'] != False and randomId != userId:
+    if data['ban'] == False and randomId != userId:
         logger.info(f'{userId} нашел {data['id']}')
         return data
     else:
@@ -63,6 +64,13 @@ def unbanUser(userId: str):
         data[userId]['ban'] = False
         save(data)
         logger.success(f'Пользователь {userId} разбанен')
+
+def checkUser(userId: str):
+    data = load()
+    if userId not in data:
+        return False
+    else:
+        return data[userId]['ban']
 
 def promoteUser(userId: str):
     k = 'admins' # key word
