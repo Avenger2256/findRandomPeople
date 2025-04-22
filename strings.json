@@ -1,12 +1,12 @@
 {
     "desc": "in 'log' you can set False to disable",
     "log": {
-        "bot_on": "START",
-        "bot_off": "STOP",
+        "bot_on": "STARTED",
+        "bot_off_by_user": "Ended by user.",
+        "bot_off_incident": "Bot stopped: {error}",
         "ban": "Пользователь №{id} разбанен",
         "unban": "Пользователь №{id} разбанен",
         "unbanError": "Не удалось забанить №{id}",
-        "received_msg": "{id} | {message}",
         "promote1": "Пользователь {id} повышен до уровня админа",
         "promote2":"Пользователь {id} повышен до уровня создателя",
         "find": "{id} нашел {id2}",
@@ -26,6 +26,8 @@
         "user": "Пользователь №{id}\n\nОписание:\n<blockquote>{description}</blockquote>",
         "promote0": "Пользователь повышен до уровня админа",
         "promote1": "Пользователь повышен до уровня создателя",
-        "promote2": "Не удалось повысить пользователя. Достигнут максимальный уровень"
+        "promote2": "Не удалось повысить пользователя. Достигнут максимальный уровень",
+        "new_description": "Опишите себя:",
+        "new_description_set": "Анкета создана"
     }
 }
